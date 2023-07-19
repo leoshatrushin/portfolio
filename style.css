@@ -1,0 +1,27 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+:root {
+    --black: #171321;
+    --primary-color: #042940;
+    --secondary-color: #005c53;
+    --tertiary-color: #9fc131;
+    --quaternary-color: #dbf227;
+    --quinary-color: #d6d58e;
+    --white: #f7f8fa;
+    --font-size: 1.3rem;
+    --mono: 'Roboto Mono', monospace;
+    --sans: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--sans);
+}
